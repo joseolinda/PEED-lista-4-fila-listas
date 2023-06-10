@@ -37,7 +37,7 @@ class Fila:
             self.inicio = self.inicio.prox
             if self.inicio == None:
                 self.fim = None # sempre que o inicio for None, o fim também será
-            self.tamanho += 1    
+            self.tamanho -= 1    
             return dado # retorna o dado removido
                 
     def mostrar(self):
