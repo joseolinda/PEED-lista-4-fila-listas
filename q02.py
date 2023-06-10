@@ -5,11 +5,7 @@ adicionar número na fila; remover número da fila; tamanho da fila;
 mostrar fila. 
 Todas as opções devem funcionar conforme a ação que ela descreve.
 '''
-'''
-Q01
-Implemente uma fila simples e as operações básicas: 
-    inserir, remover e mostrar o elemento da frente.
-'''
+
 class No:
     def __init__(self, valor):
         self.dado = valor
