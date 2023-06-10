@@ -9,6 +9,7 @@
 - Q03 -- Escreva um programa que leia uma sequência de números inteiros e insira-os em uma fila até que um número negativo seja digitado. Em seguida, remova todos os elementos da fila e exiba-os na ordem em que foram inseridos.
   - [x] [Q03 - Fila](q03.py)
 - Q04 -- Escreva um programa que leia uma frase do usuário e verifique se ela é um palíndromo (ou seja, pode ser lida da mesma forma tanto da esquerda para a direita quanto da direita para a esquerda). Utilize uma fila para armazenar os caracteres da frase.
+  - [x] [Q04 - Fila](q04.py)
 - Q05 -- Implemente uma fila circular utilizando um vetor e as operações básicas.
 - Q06 -- Considere um supermercado que atende a inúmeros clientes. Cada cliente possui um número de identificação único e chega ao supermercado em momentos distintos. Implemente um sistema que receba a chegada de clientes e mantenha uma fila para o atendimento. A cada hora*, o sistema deve atender o próximo cliente da fila e imprimir o número de identificação desse cliente. (*) Para este exercício, use a biblioteca time conforme exemplo (ver vídeo https://youtu.be/_smE7WdhCSk?t=59) e espere apenas 5 segundos.
 - Q07 -- Implemente uma lista encadeada simples e as operações básicas: inserir no início, inserir no final, remover do início, remover do final e exibir a lista.

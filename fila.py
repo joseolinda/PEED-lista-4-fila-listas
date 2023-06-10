@@ -53,3 +53,14 @@ class Fila:
             print("Fila vazia")
         else:
             return self.inicio.dado # retorna o dado do inicio
+        
+    def __str__(self):
+        fila = ""
+        if self.inicio == None:
+            return fila
+        
+        atual = self.inicio
+        while atual != None:
+            fila += str(atual.dado) + ""
+            atual = atual.prox
+        return fila
