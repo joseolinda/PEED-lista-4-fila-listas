@@ -5,6 +5,7 @@
 - Q02 -- Crie um programa que exibe ao usuário um menu com as seguintes opções: adicionar número na fila; remover número da fila; tamanho da fila; mostrar fila. Todas as opções devem funcionar conforme a ação que ela descreve. 
     - [x] [Q02 - Fila](q02.py) -> Resposta Q02 com Match Case
     - [x] [Q02 - Fila](q02_v2.py) -> Resposta Q02 com IF ELSE
+    - [ ] [Q02 - Fila](q02_v3.py) -> Resposta usando a classe [Fila](fila.py)
 - Q03 -- Escreva um programa que leia uma sequência de números inteiros e insira-os em uma fila até que um número negativo seja digitado. Em seguida, remova todos os elementos da fila e exiba-os na ordem em que foram inseridos.
 - Q04 -- Escreva um programa que leia uma frase do usuário e verifique se ela é um palíndromo (ou seja, pode ser lida da mesma forma tanto da esquerda para a direita quanto da direita para a esquerda). Utilize uma fila para armazenar os caracteres da frase.
 - Q05 -- Implemente uma fila circular utilizando um vetor e as operações básicas.
