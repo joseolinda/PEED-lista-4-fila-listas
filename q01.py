@@ -25,6 +25,7 @@ class Fila:
         else:
             self.fim.prox = novo # mudar o proximo do antigo fim para o novo elemento
             self.fim = novo # mudar o fim para o novo elemento
+        self.tamanho += 1
             
     def remover(self):
         if self.inicio == None:
@@ -36,7 +37,7 @@ class Fila:
             self.inicio = self.inicio.prox
             if self.inicio == None:
                 self.fim = None # sempre que o inicio for None, o fim também será
-                
+            self.tamanho += 1    
             return dado # retorna o dado removido
                 
     def mostrar(self):
